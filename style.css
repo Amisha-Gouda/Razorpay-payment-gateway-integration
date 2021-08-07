@@ -1,0 +1,669 @@
+
+
+.nav ul{
+    margin:0;
+    padding: 0;
+    opacity:0.8;
+}
+.nav ul li{
+    list-style-type:none;
+    float:right;
+    margin-left: 130px;
+    margin-right: 200px;
+}
+
+.nav ul li a{
+    color:black;
+    text-decoration:none;
+    font-size:30px;
+    font-weight:bold;
+    color:honeydew;
+}
+
+.nav ul li a:hover{
+    color:honeydew;
+    border:2px solid black;
+}
+
+.container{
+    float: right;
+    margin-top: 190px;
+    margin-left:400px;
+}
+
+.container a{
+    background-color:darkred;
+    padding:10px;
+    margin-top:180px;
+    color:black;
+    text-decoration:none;
+    margin-left:550px;
+    font-weight:bold;
+}
+
+.container a:hover{
+    background-color:peru;
+    color:black;
+    width:110px;
+    
+    font-weight:bold;
+}
+
+.container p{
+    font-size: 30px;
+    float: right;
+}
+
+footer {
+    text-align: center;
+   font-weight:bold;
+    background-color: #ebdac3;
+    color: black;
+    position:fixed;
+    width: 100%;
+    left:0;
+    bottom:0;
+  }
+  
+.content{
+    float: right;
+    margin-top:130px;
+   
+   
+}
+
+.card1{
+    background-color:powderblue;
+    padding:15px;
+    border-radius:80px;
+    font-weight: bold;
+    text-align:justify;
+    text-align: center;
+    box-shadow:10px 10px lightcyan;
+}
+
+.card1:hover{
+    background-color:blanchedalmond;
+}
+.card2:hover{
+    background-color:blanchedalmond;
+}
+
+.card2{
+    background-color:powderblue;
+    padding:10px;
+    border-radius:80px;
+    font-weight: bold;
+    text-align:justify;
+    margin-top: 20px;
+    box-shadow:10px 10px lightcyan;
+}
+.card3:hover{
+    background-color:blanchedalmond;
+}
+
+.card3{
+    background-color:powderblue;
+    padding:10px;
+    border-radius:80px;
+    font-weight: bold;
+    text-align:justify;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow:10px 10px lightcyan;
+}
+
+
+
+/* --------------------------contact--us------------------- */
+.form{
+    margin-top:100px;
+    margin-left: 250px;
+    background-color:slategrey;
+    width:300px;
+    padding:30px;
+    border-radius:10px;
+    border:2px solid ;
+
+    
+}
+
+#send{
+    padding:7px;
+    color:black;
+    background-color:darkcyan;
+    font-weight:bold;
+    border-radius:2px 10px;
+    margin-left: 120px;
+    margin-top:8px;
+}
+
+#send:hover{
+    background-color: darkgray;
+    transform: translateY(5px);
+}
+
+input,textarea{
+    padding:6px;
+    margin-top:9px;
+    width:260px;
+    margin-left:12px;
+    border:none;
+    border-radius: 10px;
+}
+
+
+
+h2{
+    text-align:center;
+}
+
+.contact{
+    float:right;
+    margin-right: 280px;
+    margin-top:-360px;
+    
+}
+
+
+.contact-info a img{
+    height:40px;
+    width: 40px;
+    padding-right: 50px;
+
+}
+
+.contact-info a img:hover{
+   height:55px;
+   width:55px;
+}
+
+#linkedin{
+    height: 50px;
+    width:45px;
+}
+
+#linkedin:hover{
+    height:55px;
+    width:55px;
+}
+
+#myphoto{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow:5px 5px 5px 5px;
+}
+
+.head span a{
+    text-align: center;
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+}
+
+.head span{
+    padding-left: 200px;
+    font-size:30px;
+
+}
+
+@media screen and (max-width: 426px){
+    .container p{
+        font-size: 18px;
+        text-align:center;
+        margin: 50px auto 100px auto;
+        margin-left:-400px;
+        margin-right: 10px;
+        font-weight:bold;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .container a{
+       position: absolute;
+   margin:0;
+   margin-left:-250px;
+   margin-top:130px;
+      
+       
+    }
+    
+
+    .nav ul{
+        margin:0;
+        padding:0;
+    }
+
+    .nav ul li{
+        display:block;
+        margin: 0px;
+        float:left;
+    }
+    .nav ul li a{
+        font-size:25px;
+        padding-right:12px;
+    }
+    .nav ul li a:hover{
+        color:honeydew;
+        border:2px solid black;
+    }
+    .content{
+        float: right;
+        margin-top:90px;
+       margin-bottom: 30px;
+       margin-right: 5px;
+    }
+    
+    .head span a{
+        text-align: center;
+        text-decoration:none;
+        color:black;
+        font-weight:bold;
+        
+    }
+    
+    .head span{
+        margin:0;
+        padding:0;
+        font-size:25px;
+        padding-right:10px;
+        
+    }
+    
+    .form{
+        margin-top:400px;
+        margin-left: 25px;
+       margin-bottom:30px;
+       
+        background-color:slategrey;
+        width:300px;
+        padding:30px;
+        border-radius:10px;
+        border:2px solid ;
+    
+        
+    }
+
+    .contact{
+        
+        float:right;
+    margin-right: 70px;
+    margin-top:-790px;
+    }
+
+.contact-info a img{
+    height:40px;
+    width: 40px;
+    padding-right: 10px;
+    margin-left: 20px;
+
+}
+
+
+
+
+
+}
+
+@media  screen and (min-width:427px) and (max-width:800px) {
+    .nav ul{
+        margin:0;
+        padding:0;
+    }
+
+    .nav ul li{
+        display:block;
+        margin: 0px;
+        float:left;
+    }
+    .nav ul li a{
+        font-size:25px;
+        padding-right:30px;
+        margin-left:50px;
+    }
+    .nav ul li a:hover{
+        color:honeydew;
+        border:2px solid black;
+    }
+    
+    .container p{
+        font-size: 18px;
+        text-align:center;
+        margin: 20px auto 100px auto;
+        margin-left:-400px;
+        margin-right: 10px;
+        font-weight:bold;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .container a{
+       position: absolute;
+   margin:0;
+   margin-left:-250px;
+   margin-top:80px;
+      
+       
+    }
+    .content{
+        float: right;
+        margin-top:90px;
+       margin-bottom: 30px;
+       margin-right: 5px;
+    }
+
+    .head span a{
+        text-align: center;
+        text-decoration:none;
+        color:black;
+        font-weight:bold;
+    }
+    
+    .head span{
+        padding-left: 55px;
+        font-size:35px;
+    
+    }
+    .form{
+        margin-top:400px;
+        margin-left: 220px;
+        background-color:slategrey;
+        width:300px;
+        padding:20px;
+        border-radius:10px;
+        border:2px solid ;
+    
+        
+    }
+
+    
+    .contact{
+        float:right;
+        margin-right: 200px;
+        margin-top:-750px;
+       
+    }
+
+
+
+}
+
+@media screen and (max-width:375px){
+    .nav ul{
+        margin:0;
+        padding:0;
+    }
+
+    .nav ul li{
+        display:block;
+        margin: 0px;
+        float:left;
+    }
+    .nav ul li a{
+        font-size:22px;
+        padding-right:8px;
+    }
+    .nav ul li a:hover{
+        color:honeydew;
+        border:2px solid black;
+    }
+    .container p{
+        font-size: 18px;
+        text-align:center;
+        margin: 30px auto 100px auto;
+        margin-left:-370px;
+        margin-right: 10px;
+        font-weight:bold;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .container a{
+       position: absolute;
+   margin:0;
+   margin-left:-230px;
+   margin-top:120px;
+      
+       
+    }
+    .content{
+        float: right;
+        margin-top:90px;
+       margin-bottom: 30px;
+       margin-right: 5px;
+    }
+    .head span a{
+        text-align: center;
+        text-decoration:none;
+        color:black;
+        font-weight:bold;
+        
+    }
+    
+    .head span{
+        margin:0;
+        padding:0;
+        font-size:22px;
+        padding-right:6px;
+        
+    }
+    
+    .form{
+        margin-top:400px;
+       margin-left:0px;
+       margin-bottom:30px;
+       margin-right:5px;
+        background-color:slategrey;
+        width:300px;
+        padding:30px;
+        border-radius:10px;
+        border:2px solid ;
+    
+        
+    }
+
+    .contact{
+        
+        float:right;
+    margin-right: 60px;
+    margin-top:-790px;
+    }
+
+.contact-info a img{
+    height:40px;
+    width: 40px;
+    padding-right: 10px;
+    margin-left: 20px;
+
+}
+}
+
+@media screen and (max-width:320px){
+    .nav ul{
+        margin:0;
+        padding:0;
+    }
+
+    .nav ul li{
+        display:block;
+        margin: 0px;
+        float:left;
+    }
+    .nav ul li a{
+        font-size:19px;
+        padding-right:5px;
+    }
+    .nav ul li a:hover{
+        color:honeydew;
+        border:2px solid black;
+    }
+    .container p{
+        font-size: 18px;
+        text-align:center;
+        margin: 10px auto 100px auto;
+        margin-left:-300px;
+        margin-right: 10px;
+        font-weight:bold;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .container a{
+       position: absolute;
+   margin:0;
+   margin-left:-200px;
+   margin-top:100px;
+      
+       
+    }
+    .content{
+        float: right;
+        margin-top:90px;
+       margin-bottom: 30px;
+       margin-right: 5px;
+    }
+
+    .card1 .card2 .card3{
+        font-style: 12px;
+        padding:0px;
+        border-radius: 0px;
+    }
+        
+    .head span{
+       
+        font-size:18px;
+        
+    }
+
+    .contact{
+        margin-right:10px;
+    }
+
+    .form{
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .nav ul{
+        margin:0;
+        padding:0;
+    }
+
+    .nav ul li{
+        display:block;
+        margin: 0px;
+        float:left;
+    }
+    .nav ul li a{
+        font-size:35px;
+        margin-left: 130px;
+    }
+    .nav ul li a:hover{
+        color:honeydew;
+        border:2px solid black;
+    }
+    .container p{
+        font-size: 20px;
+        text-align:center;
+        margin: 0px auto 100px auto;
+        margin-left:-300px;
+        margin-right: 50px;
+        font-weight:bold;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .container a{
+       position: absolute;
+   margin:0;
+   margin-left:-120px;
+   margin-top:50px;
+      
+       
+    }
+    .content{
+        float: right;
+        margin-top:90px;
+       margin-bottom: 30px;
+       margin-right: 5px;
+    }
+
+    .head span{
+       margin-left:-70px;
+        font-size:35px;
+        
+    }
+
+    .contact{
+        margin-right:90px;
+    }
+
+    .form{
+        margin-left: 200px;
+    }
+
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .nav ul{
+        margin:0;
+        padding:0;
+    }
+
+    .nav ul li{
+        display:block;
+        margin: 0px;
+        float:left;
+    }
+    .nav ul li a{
+        font-size:45px;
+        margin-left: 170px;
+    }
+    .nav ul li a:hover{
+        color:honeydew;
+        border:2px solid black;
+    }
+    .container p{
+        font-size: 30px;
+        text-align:center;
+        margin: 0px auto 100px auto;
+        margin-left:-300px;
+        margin-right: 50px;
+        font-weight:bold;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .container a{
+       position: absolute;
+   margin:0;
+   margin-left:-20px;
+   margin-top:80px;
+      
+       
+    }
+    .content{
+        float: right;
+        margin-top:90px;
+       margin-bottom: 30px;
+       margin-right: 5px;
+    }
+
+    .head span{
+        margin-left:-40px;
+         font-size:45px;
+         
+     }
+ 
+     .contact{
+         margin-right:280px;
+     }
+ 
+     .form{
+         margin-left: 350px;
+         
+     }
+ 
+}
