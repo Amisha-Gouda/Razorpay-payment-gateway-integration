@@ -44,8 +44,8 @@
 .container a:hover{
     background-color:peru;
     color:black;
-    width:110px;
-    
+    width:80px;
+    transform:translateY(10px);
     font-weight:bold;
 }
 
